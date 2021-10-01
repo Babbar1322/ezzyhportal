@@ -1,0 +1,458 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 8 Sep, 2021, 12:42:10 PM
+    Author     : Rakesh
+*/
+
+            .woocommerce form .form-row .required { visibility: visible; };
+            
+            img.wp-smiley,
+            img.emoji {
+                display: inline !important;
+                border: none !important;
+                box-shadow: none !important;
+                height: 1em !important;
+                width: 1em !important;
+                margin: 0 .07em !important;
+                vertical-align: -0.1em !important;
+                background: none !important;
+                padding: 0 !important;
+            }
+            
+            .woocommerce-product-gallery{ opacity: 1 !important; };
+
+
+            .elementor-12 .elementor-element.elementor-element-8b5a844 .aux-modern-heading-primary{color:var( --auxin-featured-color-1 );}.elementor-12 .elementor-element.elementor-element-22333dd .elementor-heading-title{color:var( --auxin-featured-color-1 );}.elementor-12 .elementor-element.elementor-element-f465c12 .aux-modern-heading-secondary{color:var( --auxin-featured-color-1 );}.elementor-12 .elementor-element.elementor-element-34c5ea3 .aux-modern-button.aux-modern-button-outline .aux-overlay:before, .elementor-12 .elementor-element.elementor-element-34c5ea3 .aux-modern-button .aux-overlay:before{background-color:var( --auxin-featured-color-1 );}.elementor-12 .elementor-element.elementor-element-d1a87ca .aux-text{color:var( --auxin-featured-color-1 );}.elementor-12 .elementor-element.elementor-element-ee16586 .aux-icon-list-icon{color:var( --auxin-featured-color-1 );}.elementor-12 .elementor-element.elementor-element-e05ea1f .aux-modern-heading-primary{color:var( --auxin-featured-color-1 );}.elementor-12 .elementor-element.elementor-element-e05ea1f .aux-modern-heading-secondary{color:var( --auxin-featured-color-1 );}.elementor-12 .elementor-element.elementor-element-0b2598c .aux-modern-button.aux-modern-button-outline .aux-overlay:before, .elementor-12 .elementor-element.elementor-element-0b2598c .aux-modern-button .aux-overlay:before{background-color:var( --auxin-featured-color-2 );}.elementor-12 .elementor-element.elementor-element-4a9c4b1 .auxshp-loop-title{color:var( --auxin-featured-color-1 );}.elementor-12 .elementor-element.elementor-element-4a9c4b1 .woocommerce-Price-amount{color:var( --auxin-featured-color-1 );}.elementor-12 .elementor-element.elementor-element-4a9c4b1 .auxshp-meta-terms > a{color:var( --auxin-featured-color-3 );}.elementor-12 .elementor-element.elementor-element-bd4abb6 .aux-custom-nav{color:var( --auxin-featured-color-4 );}.elementor-12 .elementor-element.elementor-element-62d534f .aux-modern-heading-primary{color:var( --auxin-featured-color-4 );}.elementor-12 .elementor-element.elementor-element-62d534f .aux-modern-heading-secondary{color:var( --auxin-featured-color-4 );}.elementor-12 .elementor-element.elementor-element-461c9f7 .aux-modern-button.aux-modern-button-outline .aux-overlay:before, .elementor-12 .elementor-element.elementor-element-461c9f7 .aux-modern-button .aux-overlay:before{background-color:var( --auxin-featured-color-4 );}.elementor-12 .elementor-element.elementor-element-461c9f7 .aux-text{color:var( --auxin-featured-color-1 );}.elementor-12 .elementor-element.elementor-element-85bc8aa .aux-modern-heading-primary{color:var( --auxin-featured-color-1 );}.elementor-12 .elementor-element.elementor-element-f6b9fd5 .auxshp-loop-title{color:var( --auxin-featured-color-1 );}.elementor-12 .elementor-element.elementor-element-f6b9fd5 .woocommerce-Price-amount{color:var( --auxin-featured-color-1 );}.elementor-12 .elementor-element.elementor-element-7148c50:not(.elementor-motion-effects-element-type-background), .elementor-12 .elementor-element.elementor-element-7148c50 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:var( --auxin-featured-color-1 );}.elementor-12 .elementor-element.elementor-element-2e98d63 .aux-modern-heading-primary{color:var( --auxin-featured-color-4 );}.elementor-12 .elementor-element.elementor-element-2e98d63 .aux-modern-heading-secondary{color:var( --auxin-featured-color-4 );}.elementor-12 .elementor-element.elementor-element-d68b69d .aux-modern-button.aux-modern-button-outline .aux-overlay:before, .elementor-12 .elementor-element.elementor-element-d68b69d .aux-modern-button .aux-overlay:before{background-color:var( --auxin-featured-color-4 );}.elementor-12 .elementor-element.elementor-element-d68b69d .aux-text{color:var( --auxin-featured-color-1 );}.elementor-12 .elementor-element.elementor-element-2882e70 .aux-modern-heading-primary{color:var( --auxin-featured-color-1 );}.elementor-12 .elementor-element.elementor-element-9c3a6c7 .auxshp-loop-title{color:var( --auxin-featured-color-1 );}.elementor-12 .elementor-element.elementor-element-9c3a6c7 .woocommerce-Price-amount{color:var( --auxin-featured-color-1 );}.elementor-12 .elementor-element.elementor-element-e0d66bf .aux-modern-heading-primary{color:var( --auxin-featured-color-4 );}.elementor-12 .elementor-element.elementor-element-96d50c8 .aux-modern-button.aux-modern-button-outline .aux-overlay:before, .elementor-12 .elementor-element.elementor-element-96d50c8 .aux-modern-button .aux-overlay:before{background-color:var( --auxin-featured-color-4 );}.elementor-12 .elementor-element.elementor-element-96d50c8 .aux-text{color:var( --auxin-featured-color-1 );}.elementor-12 .elementor-element.elementor-element-051c65e .aux-modern-heading-primary{color:var( --auxin-featured-color-1 );}/* Start custom CSS for aux_modern_heading, class: .elementor-element-8b5a844 */@media only screen and (max-width: 1376px)and (min-width: 1025px){
+                .elementor-12 .elementor-element.elementor-element-8b5a844 .aux-modern-heading-primary{
+                    font-size: 110px;
+                }
+            }/* End custom CSS */
+            /* Start custom CSS for aux_icon_list, class: .elementor-element-ee16586 */@media only screen and (max-width: 1600px)and (min-width: 1025px){
+                .elementor-12 .elementor-element.elementor-element-ee16586 .aux-icon-list-icon{
+                    margin-top: 100px!important;
+                }}/* End custom CSS */
+            /* Start custom CSS for aux_modern_heading, class: .elementor-element-e05ea1f */@media only screen and (max-width: 1484px) and (min-width: 1025px) {
+                .elementor-12 .elementor-element.elementor-element-e05ea1f .aux-modern-heading-primary {
+                    font-size: 56px;
+                }
+                .elementor-12 .elementor-element.elementor-element-e05ea1f .aux-modern-heading-secondary {
+                    font-size: 22px;
+                }
+            }/* End custom CSS */
+            /* Start custom CSS for aux_products_carousel, class: .elementor-element-4a9c4b1 */.elementor-12 .elementor-element.elementor-element-4a9c4b1 .price del .woocommerce-Price-amount{
+                font-size: 20px;
+            }
+            .elementor-12 .elementor-element.elementor-element-4a9c4b1 .price del .woocommerce-Price-amount, 
+            .elementor-12 .elementor-element.elementor-element-4a9c4b1 .aux-col:hover del{
+                color: #ffffff50;
+            }
+
+            .elementor-12 .elementor-element.elementor-element-4a9c4b1 .price ins{
+                background-color: transparent;
+            }
+            .elementor-12 .elementor-element.elementor-element-4a9c4b1 .aux-widget-recent-products-carousel .loop-tools-wrapper{
+                display: none;
+            }
+            .elementor-12 .elementor-element.elementor-element-4a9c4b1 .auxshp-entry-main {
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                margin-top: 25px;
+            }
+            .elementor-12 .elementor-element.elementor-element-4a9c4b1 .auxshp-entry-main .price{
+                order: 1;
+                margin-top: 7px;
+            }
+            .elementor-12 .elementor-element.elementor-element-4a9c4b1 .loop-meta-wrapper{
+                margin-top: 7px;
+            }
+            .elementor-12 .elementor-element.elementor-element-4a9c4b1 .aux-col{
+                position: relative;
+                background-color: #F6F6F6;
+                padding: 12% 23px 45px;
+                margin-top: 50px;
+                margin-bottom: 30px;
+            }
+
+
+            .elementor-12 .elementor-element.elementor-element-4a9c4b1 .onsale{
+                background: #219FFF;
+                width: 60px;
+                height: 32px;
+                border-radius: 5px;
+                line-height: 35px;
+                right: auto;
+            }
+            .elementor-12 .elementor-element.elementor-element-4a9c4b1 .aux-carousel-controls{
+                display: none;
+            }
+
+            .elementor-12 .elementor-element.elementor-element-4a9c4b1 .products-loop {
+                height: auto;
+            }
+            .elementor-12 .elementor-element.elementor-element-4a9c4b1 .aux-col{
+                width: 100%;
+            }
+            @media only screen and (max-width: 767px){
+                .elementor-12 .elementor-element.elementor-element-4a9c4b1 .aux-center-control{
+                    padding: 0px;
+                }
+                .elementor-12 .elementor-element.elementor-element-4a9c4b1 .auxshp-entry-main,.elementor-12 .elementor-element.elementor-element-4a9c4b1 .aux-widget-recent-products-carousel .auxshp-loop-title {
+                    margin-top:7px;
+                }
+                .elementor-12 .elementor-element.elementor-element-4a9c4b1 .products-loop{
+                    overflow: visible;
+                }
+                .elementor-12 .elementor-element.elementor-element-4a9c4b1 .aux-mc-item{
+                    width: 50%!important;
+                }
+            }
+            @media only screen and (max-width: 1484px) and (min-width: 1025px) {
+                .elementor-12 .elementor-element.elementor-element-4a9c4b1 .auxshp-loop-title, .auxshp-meta-terms a {
+                    font-size: 16px;
+                }
+                .elementor-12 .elementor-element.elementor-element-4a9c4b1 .woocommerce-Price-amount {
+                    font-size: 27px;
+                }
+            }
+            .elementor-12 .elementor-element.elementor-element-4a9c4b1 .aux-col{
+                transition: all 150ms ease-in-out;
+                border-radius: 10px;
+            }
+            .elementor-12 .elementor-element.elementor-element-4a9c4b1 .aux-col:hover {
+                background-color: #219FFF!important;
+                transition: all 150ms ease-in-out;
+                box-shadow: 0 20px 40px #19B7FF30;
+                transform: translateY(-8%);
+            }
+
+            .elementor-12 .elementor-element.elementor-element-4a9c4b1 .aux-col:hover .auxshp-meta-terms a, .elementor-12 .elementor-element.elementor-element-4a9c4b1 .aux-col:hover .auxshp-title-heading, .elementor-12 .elementor-element.elementor-element-4a9c4b1 .aux-col:hover bdi{
+                color:#fff;
+            }
+            .elementor-12 .elementor-element.elementor-element-4a9c4b1 del .woocommerce-Price-amount bdi{
+                color: #0a090a66;
+            }
+            @media only screen and (max-width: 767px){
+                .elementor-12 .elementor-element.elementor-element-4a9c4b1 .products-loop{
+                    overflow: visible;
+                }}/* End custom CSS */
+            /* Start custom CSS for aux_advance_recent_product, class: .elementor-element-f6b9fd5 */.elementor-12 .elementor-element.elementor-element-f6b9fd5 .aux-widget-recent-products-pro .aux-shop-info-wrapper {
+                display: block;
+            }
+            .elementor-12 .elementor-element.elementor-element-f6b9fd5 .auxshp-loop-title, .elementor-12 .elementor-element.elementor-element-f6b9fd5 .aux-widget-recent-products-pro .aux-shop-meta-terms{
+                max-width: 100%;
+            }
+            .elementor-12 .elementor-element.elementor-element-f6b9fd5 .price {
+                position: absolute;
+                bottom: 47px;
+                text-align: center;
+                left: 0;
+                right: 0;
+                margin: auto;
+                min-width: 100%;
+            }
+            .elementor-12 .elementor-element.elementor-element-f6b9fd5 .auxshp-loop-title{
+                text-align: center;
+            }
+
+            .elementor-12 .elementor-element.elementor-element-f6b9fd5 .aux-shop-meta-terms{
+                margin: auto;
+            }
+            @media only screen and (min-width: 1025px) {
+                .elementor-12 .elementor-element.elementor-element-f6b9fd5 .aux-col{
+                    width: calc(23.6% + 0.4%);
+                    margin: 0.4%;
+                }}
+            .elementor-12 .elementor-element.elementor-element-f6b9fd5 .aux-col{
+                background-color: #F6F6F6;
+                border-radius: 10px;
+            }
+            .elementor-12 .elementor-element.elementor-element-f6b9fd5 .price ins{
+                background-color: transparent;
+            }
+            .elementor-12 .elementor-element.elementor-element-f6b9fd5 .price del .woocommerce-Price-amount{
+                font-size: 20px;
+            }
+            .elementor-12 .elementor-element.elementor-element-f6b9fd5 .price del .woocommerce-Price-amount, 
+            .elementor-12 .elementor-element.elementor-element-f6b9fd5 .aux-col:hover del{
+                color: #ffffff50;
+            }
+            .elementor-12 .elementor-element.elementor-element-f6b9fd5 del .woocommerce-Price-amount bdi{
+                color: #0a090a6b;
+            }
+            .elementor-12 .elementor-element.elementor-element-f6b9fd5 .onsale{
+                background: #219FFF;
+                width: 60px;
+                height: 32px;
+                border-radius: 5px;
+                line-height: 35px;
+            }
+            .elementor-12 .elementor-element.elementor-element-f6b9fd5 .aux-shop-badges-wrapper{
+                left: 16px;
+                right: auto!important
+            }
+            .elementor-12 .elementor-element.elementor-element-f6b9fd5 .aux-col{
+                transition: all 150ms ease-in-out;
+            }
+            .elementor-12 .elementor-element.elementor-element-f6b9fd5 .aux-col:hover {
+                background-color: #219FFF;
+                transition: all 150ms ease-in-out;
+                box-shadow: 0 20px 40px #19B7FF30;
+                transform: translateY(-8%);
+            }
+            .elementor-12 .elementor-element.elementor-element-f6b9fd5 .aux-col:hover a,  .elementor-12 .elementor-element.elementor-element-f6b9fd5 .aux-col:hover bdi{
+                color:#fff;
+            }
+            @media only screen and (max-width: 1025px)and (min-width: 767px) {
+                .elementor-12 .elementor-element.elementor-element-f6b9fd5:after{
+                    width: calc(23% + 0px);
+                    margin: 5px;
+                }
+                .elementor-12 .elementor-element.elementor-element-f6b9fd5 .aux-col{
+                    width: calc(47% + 5px);
+                    margin-right: 5px;
+                    margin-left: 5px;
+                    margin-top: 11px;
+                }
+            }
+            @media only screen and (max-width: 767px){
+                .elementor-12 .elementor-element.elementor-element-f6b9fd5 .price{
+                    bottom: 22px;
+                }
+                .elementor-12 .elementor-element.elementor-element-f6b9fd5 .aux-col{
+                    width: calc(45% + 5px);
+                    margin-right: 4px;
+                    margin-left:4px;
+                    margin-top: 9px;
+                }    
+            }/* End custom CSS */
+            /* Start custom CSS for section, class: .elementor-element-7148c50 */.elementor-12 .elementor-element.elementor-element-7148c50{
+                overflow: hidden!important;
+            }/* End custom CSS */
+            /* Start custom CSS for aux_advance_recent_product, class: .elementor-element-9c3a6c7 */.elementor-12 .elementor-element.elementor-element-9c3a6c7 .aux-widget-recent-products-pro .aux-shop-info-wrapper {
+                display: block;
+            }
+            .elementor-12 .elementor-element.elementor-element-9c3a6c7 .auxshp-loop-title, .elementor-12 .elementor-element.elementor-element-9c3a6c7 .aux-widget-recent-products-pro .aux-shop-meta-terms{
+                max-width: 100%;
+            }
+            .elementor-12 .elementor-element.elementor-element-9c3a6c7 .price {
+                position: absolute;
+                bottom: 33px;
+                text-align: center;
+                left: 0;
+                right: 0;
+                margin: auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .elementor-12 .elementor-element.elementor-element-9c3a6c7 .auxshp-loop-title{
+                text-align: center;
+            }
+
+            .elementor-12 .elementor-element.elementor-element-9c3a6c7 .aux-shop-meta-terms{
+                margin: auto;
+            }
+            .elementor-12 .elementor-element.elementor-element-9c3a6c7 .aux-col{
+                background-color: #F6F6F6;
+                width: calc(23.6% + 0.4%);
+                margin: 0.4%;
+                border-radius: 10px;
+            }
+            .elementor-12 .elementor-element.elementor-element-9c3a6c7 .price ins{
+                background-color: transparent;
+            }
+            .elementor-12 .elementor-element.elementor-element-9c3a6c7 .price del .woocommerce-Price-amount{
+                font-size: 20px;
+            }
+            .elementor-12 .elementor-element.elementor-element-9c3a6c7 .price del .woocommerce-Price-amount, 
+            .elementor-12 .elementor-element.elementor-element-9c3a6c7 .aux-col:hover del{
+                color: #ffffff50;
+            }
+
+            .elementor-12 .elementor-element.elementor-element-9c3a6c7 .onsale{
+                background: #219FFF;
+                width: 60px;
+                height: 32px;
+                border-radius: 5px;
+                line-height: 35px;
+            }
+            .elementor-12 .elementor-element.elementor-element-9c3a6c7 .aux-shop-badges-wrapper{
+                left: 16px;
+                right: auto!important
+            }
+            .elementor-12 .elementor-element.elementor-element-9c3a6c7 .aux-col{
+                transition: all 150ms ease-in-out;
+            }
+            .elementor-12 .elementor-element.elementor-element-9c3a6c7 .aux-col:hover {
+                background-color: #219FFF;
+                transition: all 150ms ease-in-out;
+                box-shadow: 0 20px 40px #19B7FF30;
+                transform: translateY(-8%);
+            }
+
+            .elementor-12 .elementor-element.elementor-element-9c3a6c7 .aux-col:hover a, .elementor-12 .elementor-element.elementor-element-9c3a6c7 .aux-col:hover bdi{
+                color:#fff;
+            }
+            .elementor-12 .elementor-element.elementor-element-9c3a6c7 del .woocommerce-Price-amount bdi{
+                color: #0a090a6b;
+            } 
+            @media only screen and (max-width: 1025px)and (min-width: 767px) {
+                .elementor-12 .elementor-element.elementor-element-9c3a6c7:after{
+                    width: calc(23% + 0px);
+                    margin: 5px;
+                }
+                .elementor-12 .elementor-element.elementor-element-9c3a6c7 .aux-col{
+                    width: calc(47% + 5px);
+                    margin-right: 5px;
+                    margin-left: 5px;
+                    margin-top: 11px;
+                }
+            }
+            @media only screen and (max-width: 767px){
+                .elementor-12 .elementor-element.elementor-element-9c3a6c7 .price{
+                    bottom: 22px;
+                }
+                .elementor-12 .elementor-element.elementor-element-9c3a6c7 .aux-col{
+                    width: calc(45% + 5px);
+                    margin-right: 4px;
+                    margin-left:4px;
+                    margin-top: 9px;
+                }    
+            }/* End custom CSS */
+            .elementor-28 .elementor-element.elementor-element-6607772 .aux-modern-heading-primary{color:var( --auxin-featured-color-1 );}.elementor-28 .elementor-element.elementor-element-6607772 .aux-modern-heading-secondary{color:var( --auxin-featured-color-1 );}.elementor-28 .elementor-element.elementor-element-9ce3d71 .aux-menu-depth-0 > .aux-item-content{color:var( --auxin-featured-color-1 );}.elementor-28 .elementor-element.elementor-element-9ce3d71 .aux-menu-item.aux-open > .aux-submenu{background-color:var( --auxin-featured-color-1 );}.elementor-28 .elementor-element.elementor-element-9ce3d71 .aux-submenu .aux-menu-item .aux-item-content{color:var( --auxin-featured-color-4 ) !important;background-color:var( --auxin-featured-color-1 );}.elementor-28 .elementor-element.elementor-element-9ce3d71 .aux-burger:before,  .elementor-28 .elementor-element.elementor-element-9ce3d71 .aux-burger:after, .elementor-28 .elementor-element.elementor-element-9ce3d71 .aux-burger .mid-line{border-color:var( --auxin-featured-color-1 ) !important;}.elementor-28 .elementor-element.elementor-element-4c8cd3f .aux-search-submit i{color:var( --auxin-featured-color-1 );}.elementor-28 .elementor-element.elementor-element-e7358cc .aux-card-dropdown{background-color:var( --auxin-featured-color-1 );}.elementor-28 .elementor-element.elementor-element-e7358cc .aux-cart-wrapper .aux-card-item h3{color:var( --auxin-featured-color-4 );}.elementor-28 .elementor-element.elementor-element-e7358cc .aux-cart-wrapper .aux-card-item span{color:var( --auxin-featured-color-4 );}/* Start custom CSS for aux_menu_box, class: .elementor-element-9ce3d71 */@media only screen and (max-width: 1025px) {
+                .elementor-28 .elementor-element.elementor-element-9ce3d71 .elementor-widget-wrap{
+                    justify-content: center;}
+            }
+            .elementor-28 .elementor-element.elementor-element-9ce3d71 .aux-submenu-indicator{
+                display: none!important;
+            }
+            .elementor-28 .elementor-element.elementor-element-9ce3d71 .menu-item-has-children{
+                margin-right: 20px;
+            }
+            .elementor-28 .elementor-element.elementor-element-9ce3d71 .menu-item-has-children:after{
+                content: "\e196";
+                font-family: "auxin-front" !important;
+                color: #000!important;
+                position: absolute;
+                top: 0;
+                right: 6px;
+            }
+            .elementor-28 .elementor-element.elementor-element-9ce3d71 .aux-submenu li .aux-menu-label{
+                margin-left: 5px;
+                float: left;
+            }
+            .elementor-28 .elementor-element.elementor-element-9ce3d71 .menu-item-has-children .aux-submenu{
+                padding-top: 8px;
+                padding-bottom: 27px;
+                width: 280px;
+            }
+            @media only screen and (max-width: 767px) {
+                .elementor-28 .elementor-element.elementor-element-9ce3d71 .aux-master-menu  li .aux-item-content {
+                    padding: 9px 0!important;
+                }
+            }/* End custom CSS */
+            /* Start custom CSS for aux_shopping_cart, class: .elementor-element-e7358cc */.elementor-28 .elementor-element.elementor-element-e7358cc .auxicon-shopping-bag-4:before{
+                opacity: 0;
+            }
+            .elementor-28 .elementor-element.elementor-element-e7358cc .aux-shopping-amount{
+                display: none;
+            }
+            .elementor-28 .elementor-element.elementor-element-e7358cc .aux-shopping-cart-info .aux-shopping-title{
+                font-size: 16px;
+                font-weight: 400;
+                color: #000;
+            }
+            @media only screen and (max-width: 1025px)and (min-width: 767px) {
+                .elementor-28 .elementor-element.elementor-element-e7358cc .aux-shopping-cart-info .aux-shopping-title{
+                    font-size: 13px!important;
+                    margin-top:5px;
+                }
+            }
+            .elementor-28 .elementor-element.elementor-element-e7358cc .aux-shopping-cart-info{
+                padding-top: 3px;
+            }
+            .elementor-28 .elementor-element.elementor-element-e7358cc .aux-cart-total-items, .elementor-28 .elementor-element.elementor-element-e7358cc .aux-cart-subtotal{
+                display: none;
+            }
+            .elementor-28 .elementor-element.elementor-element-e7358cc .aux-card-box{
+                border-bottom: none;
+            }
+            .elementor-28 .elementor-element.elementor-element-e7358cc .aux-button-wrapper .aux-button{
+                background-color: #219FFF;
+                border-radius: 50px;
+                padding: 19px;
+                text-shadow: none;
+                text-transform: capitalize;
+                font-size: 18px;
+            }
+            .elementor-28 .elementor-element.elementor-element-e7358cc .aux-button-wrapper .aux-cart-button{
+                border-radius: 50px;
+                color: #fff;
+                border: 1px solid #fff;
+            }
+            .elementor-28 .elementor-element.elementor-element-e7358cc .aux-card-dropdown{
+                width: 768px;
+                border-radius: 10px;
+            }
+            .elementor-28 .elementor-element.elementor-element-e7358cc .aux-card-item-img img{
+                width: 120px;
+                height: 120px;
+            }
+            .elementor-28 .elementor-element.elementor-element-e7358cc .aux-card-box .aux-card-item{
+                justify-content: start;
+                align-items: center;
+            }
+            .elementor-28 .elementor-element.elementor-element-e7358cc .aux-card-box .aux-small-cross{
+                width: 21px;
+                height: 21px;
+                background-color: #FF1E2E;
+                border-radius: 5px;
+                top: 36%;
+                right: 5%;
+            }
+            .elementor-28 .elementor-element.elementor-element-e7358cc .aux-cart-wrapper .aux-card-item:hover {
+                background-color: #000000;
+            }
+            .elementor-28 .elementor-element.elementor-element-e7358cc .aux-small-cross {
+                background-position: 6px -976px;
+            }
+            .elementor-28 .elementor-element.elementor-element-e7358cc .aux-svg-symbol{
+                background-image: none;
+            }
+            .elementor-28 .elementor-element.elementor-element-e7358cc .aux-svg-symbol:after{
+                content: "\e203";
+                font-family: "auxin-front" !important;
+                color: #000!important;
+                font-size: 12px;
+                position: absolute;
+                top: 18%;
+                left: 4px;
+            }
+            .elementor-28 .elementor-element.elementor-element-e7358cc .aux-inline-card-checkout {
+                padding: 25px 50px;
+            }/* End custom CSS */
+            .elementor-706 .elementor-element.elementor-element-70dacdd:not(.elementor-motion-effects-element-type-background), .elementor-706 .elementor-element.elementor-element-70dacdd > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:var( --auxin-featured-color-5 );}.elementor-706 .elementor-element.elementor-element-7fac01c .aux-modern-heading-primary{color:var( --auxin-featured-color-1 );}.elementor-706 .elementor-element.elementor-element-7fac01c .aux-modern-heading-secondary{color:var( --auxin-featured-color-1 );}.elementor-706 .elementor-element.elementor-element-7fac01c .aux-modern-heading-description{color:var( --auxin-featured-color-1 );}.elementor-706 .elementor-element.elementor-element-edc7da1 small{color:var( --auxin-featured-color-1 );}.elementor-706 .elementor-element.elementor-element-8b42001 .aux-modern-heading-primary{color:var( --auxin-featured-color-1 );}.elementor-706 .elementor-element.elementor-element-ca2fd88 .aux-icon-list-text{color:var( --auxin-featured-color-1 );}.elementor-706 .elementor-element.elementor-element-ca2fd88 .aux-icon-list-item:hover .aux-icon-list-text{color:var( --auxin-featured-color-2 );}.elementor-706 .elementor-element.elementor-element-676af5d .aux-modern-heading-primary{color:var( --auxin-featured-color-1 );}.elementor-706 .elementor-element.elementor-element-f27db3f .aux-icon-list-text{color:var( --auxin-featured-color-1 );}.elementor-706 .elementor-element.elementor-element-f27db3f .aux-icon-list-item:hover .aux-icon-list-text{color:var( --auxin-featured-color-2 );}.elementor-706 .elementor-element.elementor-element-dbe09f7 .aux-modern-heading-primary{color:var( --auxin-featured-color-1 );}.elementor-706 .elementor-element.elementor-element-425adfd .mc4wp-form input[type="text"], .elementor-706 .elementor-element.elementor-element-425adfd .mc4wp-form input[type="email"]{background-color:var( --auxin-featured-color-4 );}.elementor-706 .elementor-element.elementor-element-425adfd .mc4wp-form input[type="submit"]{background-color:var( --auxin-featured-color-2 );}.elementor-706 .elementor-element.elementor-element-7fedac0 .aux-modern-heading-primary{color:var( --auxin-featured-color-1 );}.elementor-706 .elementor-element.elementor-element-bf1e36d .aux-icon-list-item:hover .aux-icon-list-text{color:var( --auxin-featured-color-2 );}.elementor-706 .elementor-element.elementor-element-bf1e36d .aux-icon-list-icon{color:var( --auxin-featured-color-1 );}.elementor-706 .elementor-element.elementor-element-bf1e36d .aux-icon-list-item:hover .aux-icon-list-icon{color:var( --auxin-featured-color-2 );}/* Start custom CSS for section, class: .elementor-element-70dacdd */@media only screen and (max-width:767px) {
+                .elementor-706 .elementor-element.elementor-element-70dacdd .elementor-row{
+                    display: flex;
+                    flex-direction: row-reverse;
+                }
+            }/* End custom CSS */
+            /* Start custom CSS for aux_modern_heading, class: .elementor-element-7fac01c */.elementor-706 .elementor-element.elementor-element-7fac01c .aux-modern-heading-description p{
+                max-width: 80%;
+            }/* End custom CSS */
+            /* Start custom CSS for aux_mailchimp, class: .elementor-element-425adfd */.elementor-706 .elementor-element.elementor-element-425adfd .mc4wp-form-fields p:last-child{
+                position: absolute;
+                right: 6px;
+                top: 13px;
+            }
+            @media only screen and (max-width: 767px) {
+                .elementor-706 .elementor-element.elementor-element-425adfd .mc4wp-form-fields p:last-child{
+                    right: 3px;
+                    top: 7px;
+                }
+            }/* End custom CSS */
